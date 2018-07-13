@@ -16,7 +16,7 @@ using namespace std;
 using namespace cocos2d;
 #include "cocos-ext.h"
 using namespace cocos2d::extension;
-#include "CCControlButton.h"
+//#include "CCControlButton.h"
 class CchooseLayer:public CCLayer
 {
 public:
