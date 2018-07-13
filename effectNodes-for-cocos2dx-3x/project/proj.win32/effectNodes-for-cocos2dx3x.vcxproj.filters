@@ -10,6 +10,54 @@
     <Filter Include="src">
       <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
     </Filter>
+    <Filter Include="code">
+      <UniqueIdentifier>{8cb82818-787d-44e0-b68f-57d8ca4f66e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="code\2DSoftShadow">
+      <UniqueIdentifier>{ee873ce3-3d66-4d9b-a6e7-ae590863d479}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="code\break">
+      <UniqueIdentifier>{95bffb94-62c8-4e60-9c75-c6a53592e624}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="code\chooseDemoUI">
+      <UniqueIdentifier>{7969c5bf-6516-44fb-8fa6-9fd8c1e60f66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="code\colorAdjust">
+      <UniqueIdentifier>{56e892f2-f6fe-4c84-94dd-e36c5f747296}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="code\common">
+      <UniqueIdentifier>{9c76b3e4-9fdb-4b72-acda-c16f18395789}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="code\ghost-like">
+      <UniqueIdentifier>{65db0046-5de1-4726-ad9e-cef23a6de6dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="code\laser">
+      <UniqueIdentifier>{f1d55c52-9076-4e59-8d93-5b53081e4125}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="code\lightningBolt">
+      <UniqueIdentifier>{84cba77b-505a-466f-aa59-6a3bad67216c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="code\tinyWingsTerrain">
+      <UniqueIdentifier>{c5054e8f-541e-4a37-be67-9d1683a744c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="code\tail">
+      <UniqueIdentifier>{343bbd2a-9836-4e28-8176-2490de5c2c26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="code\splash">
+      <UniqueIdentifier>{7f6e1fd4-dd90-4836-a199-08afa7fe3f5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="code\shatter">
+      <UniqueIdentifier>{3e99e25c-b9f5-48ff-9d5f-20fe00c29392}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="code\ripple_horizontal">
+      <UniqueIdentifier>{43c01a81-4719-4169-b681-a58c73e38efe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="code\ripple">
+      <UniqueIdentifier>{6122a59e-5709-49fc-b159-3a8fa3f48a6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="code\normalMapped">
+      <UniqueIdentifier>{6d48b6d4-85b3-40b0-ab99-2e823898d3a5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -21,6 +69,150 @@
     <ClCompile Include="..\Classes\HelloWorldScene.cpp">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\code\2DSoftShadow\ens2DSoftShadowNode.cpp">
+      <Filter>code\2DSoftShadow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\2DSoftShadow\layer_2DSoftShadow.cpp">
+      <Filter>code\2DSoftShadow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\2DSoftShadow\scene_2DSoftShadow.cpp">
+      <Filter>code\2DSoftShadow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\break\ensBreakNode.cpp">
+      <Filter>code\break</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\break\layer_break.cpp">
+      <Filter>code\break</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\break\scene_break.cpp">
+      <Filter>code\break</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\chooseDemoUI\chooseLayer.cpp">
+      <Filter>code\chooseDemoUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\chooseDemoUI\chooseScene.cpp">
+      <Filter>code\chooseDemoUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\colorAdjust\ensColorAdjustNode.cpp">
+      <Filter>code\colorAdjust</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\colorAdjust\layer_colorAdjust.cpp">
+      <Filter>code\colorAdjust</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\colorAdjust\scene_colorAdjust.cpp">
+      <Filter>code\colorAdjust</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\common\ensDefine.cpp">
+      <Filter>code\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\common\ensFunc.cpp">
+      <Filter>code\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\common\ensGLProgramWithUnifos.cpp">
+      <Filter>code\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\common\ensIndexVBO.cpp">
+      <Filter>code\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\common\ensMath.cpp">
+      <Filter>code\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\common\ensMesh.cpp">
+      <Filter>code\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\common\ensSimpleClasses.cpp">
+      <Filter>code\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\ghost-like\ensGhostNode.cpp">
+      <Filter>code\ghost-like</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\ghost-like\layer_ghostlike.cpp">
+      <Filter>code\ghost-like</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\ghost-like\scene_ghostlike.cpp">
+      <Filter>code\ghost-like</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\laser\ensLaserLayer.cpp">
+      <Filter>code\laser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\laser\laserScene.cpp">
+      <Filter>code\laser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\lightningBolt\ensLightningBoltNode.cpp">
+      <Filter>code\lightningBolt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\lightningBolt\layer_lightningBolt.cpp">
+      <Filter>code\lightningBolt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\lightningBolt\scene_lightningBolt.cpp">
+      <Filter>code\lightningBolt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\normalMapped\ensNormalMappedNode.cpp">
+      <Filter>code\normalMapped</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\normalMapped\layer_normalMapped.cpp">
+      <Filter>code\normalMapped</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\normalMapped\scene_normalMapped.cpp">
+      <Filter>code\normalMapped</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\ripple\ensRippleNode.cpp">
+      <Filter>code\ripple</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\ripple\layer_ripple.cpp">
+      <Filter>code\ripple</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\ripple\scene_ripple.cpp">
+      <Filter>code\ripple</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\ripple_horizontal\ensRipple_horizontalNode.cpp">
+      <Filter>code\ripple_horizontal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\ripple_horizontal\layer_ripple_horizontal.cpp">
+      <Filter>code\ripple_horizontal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\ripple_horizontal\scene_ripple_horizontal.cpp">
+      <Filter>code\ripple_horizontal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\shatter\ensShatterNode.cpp">
+      <Filter>code\shatter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\shatter\layer_shatter.cpp">
+      <Filter>code\shatter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\shatter\scene_shatter.cpp">
+      <Filter>code\shatter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\splash\__multiSpotLightLayer.cpp">
+      <Filter>code\splash</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\splash\ensSplashLayer.cpp">
+      <Filter>code\splash</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\splash\layer_splash.cpp">
+      <Filter>code\splash</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\splash\scene_splash.cpp">
+      <Filter>code\splash</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\tail\ensTailNode.cpp">
+      <Filter>code\tail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\tail\layer_tail.cpp">
+      <Filter>code\tail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\tail\scene_tail.cpp">
+      <Filter>code\tail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\tinyWingsTerrain\ensTinyWingsTerrainNode.cpp">
+      <Filter>code\tinyWingsTerrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\tinyWingsTerrain\layer_tinyWingsTerrain.cpp">
+      <Filter>code\tinyWingsTerrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\tinyWingsTerrain\scene_tinyWingsTerrain.cpp">
+      <Filter>code\tinyWingsTerrain</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
@@ -31,6 +223,153 @@
     </ClInclude>
     <ClInclude Include="..\Classes\HelloWorldScene.h">
       <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\2DSoftShadow\ens2DSoftShadowNode.h">
+      <Filter>code\2DSoftShadow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\2DSoftShadow\layer_2DSoftShadow.h">
+      <Filter>code\2DSoftShadow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\2DSoftShadow\scene_2DSoftShadow.h">
+      <Filter>code\2DSoftShadow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\break\ensBreakNode.h">
+      <Filter>code\break</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\break\layer_break.h">
+      <Filter>code\break</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\break\scene_break.h">
+      <Filter>code\break</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\chooseDemoUI\chooseLayer.h">
+      <Filter>code\chooseDemoUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\chooseDemoUI\chooseScene.h">
+      <Filter>code\chooseDemoUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\colorAdjust\ensColorAdjustNode.h">
+      <Filter>code\colorAdjust</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\colorAdjust\layer_colorAdjust.h">
+      <Filter>code\colorAdjust</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\colorAdjust\scene_colorAdjust.h">
+      <Filter>code\colorAdjust</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\common\ensCommon.h">
+      <Filter>code\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\common\ensDefine.h">
+      <Filter>code\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\common\ensFunc.h">
+      <Filter>code\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\common\ensGLProgramWithUnifos.h">
+      <Filter>code\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\common\ensIndexVBO.h">
+      <Filter>code\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\common\ensMath.h">
+      <Filter>code\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\common\ensMesh.h">
+      <Filter>code\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\common\ensSimpleClasses.h">
+      <Filter>code\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\ghost-like\ensGhostNode.h">
+      <Filter>code\ghost-like</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\ghost-like\layer_ghostlike.h">
+      <Filter>code\ghost-like</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\ghost-like\scene_ghostlike.h">
+      <Filter>code\ghost-like</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\laser\ensLaserLayer.h">
+      <Filter>code\laser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\laser\laserScene.h">
+      <Filter>code\laser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\lightningBolt\ensLightningBoltNode.h">
+      <Filter>code\lightningBolt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\lightningBolt\layer_lightningBolt.h">
+      <Filter>code\lightningBolt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\lightningBolt\scene_lightningBolt.h">
+      <Filter>code\lightningBolt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\normalMapped\ensNormalMappedNode.h">
+      <Filter>code\normalMapped</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\normalMapped\layer_normalMapped.h">
+      <Filter>code\normalMapped</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\normalMapped\scene_normalMapped.h">
+      <Filter>code\normalMapped</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\ripple\ensRippleNode.h">
+      <Filter>code\ripple</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\ripple\layer_ripple.h">
+      <Filter>code\ripple</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\ripple\scene_ripple.h">
+      <Filter>code\ripple</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\ripple_horizontal\ensRipple_horizontalNode.h">
+      <Filter>code\ripple_horizontal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\ripple_horizontal\layer_ripple_horizontal.h">
+      <Filter>code\ripple_horizontal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\ripple_horizontal\scene_ripple_horizontal.h">
+      <Filter>code\ripple_horizontal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\shatter\ensShatterNode.h">
+      <Filter>code\shatter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\shatter\layer_shatter.h">
+      <Filter>code\shatter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\shatter\scene_shatter.h">
+      <Filter>code\shatter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\splash\__multiSpotLightLayer.h">
+      <Filter>code\splash</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\splash\ensSplashLayer.h">
+      <Filter>code\splash</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\splash\layer_splash.h">
+      <Filter>code\splash</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\splash\scene_splash.h">
+      <Filter>code\splash</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\tail\ensTailNode.h">
+      <Filter>code\tail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\tail\layer_tail.h">
+      <Filter>code\tail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\tail\scene_tail.h">
+      <Filter>code\tail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\tinyWingsTerrain\ensTinyWingsTerrainNode.h">
+      <Filter>code\tinyWingsTerrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\tinyWingsTerrain\layer_tinyWingsTerrain.h">
+      <Filter>code\tinyWingsTerrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\tinyWingsTerrain\scene_tinyWingsTerrain.h">
+      <Filter>code\tinyWingsTerrain</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
