@@ -12,7 +12,20 @@ int APIENTRY _tWinMain(HINSTANCE hInstance,
     UNREFERENCED_PARAMETER(hPrevInstance);
     UNREFERENCED_PARAMETER(lpCmdLine);
 
+
+#ifdef WIN32
+        _tsetlocale(LC_ALL, _T(""));
+        ::AllocConsole();
+        ::freopen("conout$", "w", stdout);
+        ::freopen("CONIN$", "r", stdin);
+        ::freopen("CONOUT$", "w", stderr);
+#endif
+
     // create the application instance
     AppDelegate app;
     return Application::getInstance()->run();
+
+#ifdef WIN32
+	::FreeConsole();
+#endif
 }
